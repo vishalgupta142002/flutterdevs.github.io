@@ -642,7 +642,17 @@ border-radius: 4px
 #map{
   background:#F9F8FF;
 }
-
+#map img{
+  width: 50%;
+  max-width: 500px;
+}
+@media screen and (min-width: 320px) and (max-width: 786px) {
+	#map img {
+    width: 50%;
+    max-width: 350px;
+    
+  }
+}
 
 
 /*--------------------------------------------------------------
